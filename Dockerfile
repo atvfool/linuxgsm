@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 
 # Stop apt-get asking to get Dialog frontend
-ENV DEBIAN_FRONTEND=noninteractive \
+ENV DEBIAN_FRONTEND="noninteractive" \
     TERM=xterm
 
 # LinuxGSM_ variables
@@ -40,7 +40,6 @@ RUN dpkg --add-architecture i386 && \
         mailutils \
         netcat \
         nodejs \
-        postfix \
         procps \
         python \
         tar \
