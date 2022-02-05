@@ -10,7 +10,7 @@ Docker version of [LinuxGSM\_](https://github.com/GameServerManagers/LinuxGSM).
 
 This image must not be run directly.
 
-It's a partial image and must be used by a Dockerfile `FROM ghcr.io/atvfool/linuxgsm`. See [atvfool/project-zomboid](https://github.com/atvfool/project-zomboid) for example.
+It's a partial image and must be used by a Dockerfile `FROM atvfool/linuxgsm`. See [atvfool/project-zomboid](https://github.com/atvfool/project-zomboid) for example.
 
 ## Variables
 
